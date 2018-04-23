@@ -1,0 +1,13 @@
+
+.logo-bar {
+    padding: 10px 20px;
+    background-color: #fcfcfc;
+}
+
+.logo-text {
+    color: black;
+    opacity: 0.8;
+}
+.logo-text:hover{
+    opacity: 1.0;
+}
