@@ -6,7 +6,7 @@ export default class LogoBar extends Component {
 
     return (
       <div className='logo-bar'>
-        <a href='#'><h1 className='logo-text'>School Connect</h1></a>
+        <a href='#'><h3 className='logo-text'>School Connect</h3></a>
       </div>
     )
   }

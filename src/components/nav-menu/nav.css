@@ -47,14 +47,13 @@ li a:hover{
     width: 233px;
     height: 489px;
     text-align: center;
-    margin-top: 50px;
     padding-top: 30px;
-    margin-left: 20px;
     padding-bottom: 30px;
     box-shadow: 0 6px 28px 1px rgba(0,0,0,0.10);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+
 }
 
 .text-simple-link {

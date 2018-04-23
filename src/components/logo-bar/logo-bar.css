@@ -1,4 +1,9 @@
 
+h3 {
+    font-family: AvenirNext-DemiBold;
+    font-size: 14px;
+}
+
 .logo-bar {
     padding: 10px 20px;
     background-color: #fcfcfc;
@@ -11,3 +16,4 @@
 .logo-text:hover{
     opacity: 1.0;
 }
+
