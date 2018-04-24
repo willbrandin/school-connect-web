@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import SideNav from './components/nav-menu/nav';
-import LogoBar from './components/logo-bar/logo-bar';
-import NewsList from './components/news/news-list';
+import NewsSection from './components/app-section/news-section';
 
 import './App.css';
 
@@ -12,13 +11,14 @@ class App extends Component {
     return (
       
       <div className="App">
-        <LogoBar />
-        <div className='menu-app-container'>
+        <div className='menu-container'>
           <SideNav 
             //Redux state for school details?
             schoolName='Smith High School'
           />
-          <NewsList />
+          <div className='app-container'>
+            <NewsSection />
+          </div> 
         </div>
       </div>
     );

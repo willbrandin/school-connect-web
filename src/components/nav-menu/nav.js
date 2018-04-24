@@ -14,8 +14,8 @@ export default class NavMenu extends Component {
       <div className='nav'>
         <h1>{this.props.schoolName}</h1>
         <NavItems />
-        <a href='#' className='text-simple-link'>Log Out</a>
+        <a href='#' className='nav-text-simple-link'>Log Out</a>
       </div>
     )
   }
-}
+} 

@@ -1,12 +1,64 @@
+h1{
+  font-family: AvenirNext-Bold;
+  font-size: 18px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+li a {
+  display: block;
+  color: #000;
+  opacity: 0.8;
+  padding-bottom: 20px;
+  text-decoration: none;
+  font-family: AvenirNext-DemiBold;
+  font-size: 18px;
+}
+
+li a:hover{
+  opacity: 1.0;
+  color: #3498DB;
+}
+
+p {
+  font-family: AvenirNext-Regular;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 20px;
+}
 
 .App ul {
   display: flex;
   justify-content: space-between;
 }
 
-.menu-app-container{
+.menu-container{
   display: flex;
   flex-direction: row;
-  margin-top: 50px;
-  margin-left: 20px;
+}
+
+.app-container {
+  margin-left: 200px;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+
+.feature-heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.feature-title{
+  font-family: AvenirNext-DemiBold;
+  font-size: 26px;  
 }

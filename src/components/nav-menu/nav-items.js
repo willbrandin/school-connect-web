@@ -5,7 +5,7 @@ export default class NavItems extends Component {
 
   render() {
     return (
-        <div className='nav-items'>
+        <div className='nav-list-items'>
             <ul>
                 <li><a href="#" className='nav-item-active'>News</a></li>
                 <li><a href="#">Calendar</a></li>
@@ -16,3 +16,4 @@ export default class NavItems extends Component {
     )
   }
 }
+ 
