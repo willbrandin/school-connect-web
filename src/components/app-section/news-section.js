@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import FeatureHeading from './feature-heading'
-import NewsList from '../news/news-list'
+import FeatureHeading from './feature-heading';
+import NewsList from '../news/news-list';
 
 export default class NewsSection extends Component {
   

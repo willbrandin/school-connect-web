@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import NewsArticle from './news-article';
+import NewsForm from './news-article-add-new';
 
 
-const APIURL = 'http://dev.schoolconnected.net/api/news/5ad8c4ba3a46050014bca298';
+const APIURL = 'http://stg.schoolconnected.net/api/news/5ad7da89a220b9e4aa3f2099';
 
 class NewsList extends Component {
 
@@ -11,6 +12,7 @@ class NewsList extends Component {
         this.state = {
             news: []
         }
+        this.addNews = this.addNews.bind(this)
     }
 
     componentWillMount(){
@@ -36,6 +38,10 @@ class NewsList extends Component {
         .then(news => this.setState({news}));
     }
 
+    addNews(title, story){
+      
+    }
+
     render(){
 
         const news = this.state.news.map((t) => (
@@ -47,6 +53,9 @@ class NewsList extends Component {
 
         return (
             <div>
+                <NewsForm 
+                  addNews={ this.addNews }
+                />
                 {news}  
             </div>
         )

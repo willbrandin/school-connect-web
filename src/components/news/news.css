@@ -1,8 +1,8 @@
 .news-item-container {
     background-color: #fcfcfc;
     text-align: left;
-    padding: 25px 30px 10px 30px;
-    margin-top: 25px;
+    padding: 35px 40px 20px 40px;
+    margin-top: 35px;
     box-shadow: 0 6px 28px 1px rgba(0,0,0,0.10);
     border-radius: 10px;
     display: flex;
@@ -11,13 +11,14 @@
 }
 
 .news-header-container{
+    margin-bottom: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .news-item-text-container{
-    margin-top: 5px;
+    margin-top: 10px;
     margin-right: 100px;
 }
 
@@ -27,4 +28,6 @@
 
 .news-item-story-date{
     margin-top: 25px;
+    font-weight: bold;
+    color: #444;
 }
