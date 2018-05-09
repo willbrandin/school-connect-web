@@ -14,7 +14,7 @@ export default class NavItems extends Component {
                 <li><a href="#">Settings</a></li>
             </ul>
         </div>
-    )
+    ) 
   }
 }
  
