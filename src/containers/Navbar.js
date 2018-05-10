@@ -5,9 +5,11 @@ import { connect } from 'react-redux';
 class Navbar extends Component {
   render(){
     return(
-      <nav>
-          <Link to='/'>School Connect</Link>
-          <ul>
+      <nav className="nav">
+          <div>
+            <h1>School Connect</h1>
+          </div>
+          <ul className="nav-list-items">
             <li>
               <Link to='/news'>News</Link>
             </li>

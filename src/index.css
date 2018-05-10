@@ -4,3 +4,104 @@ body {
   font-family: sans-serif;
   background: #ecf0f1;
 }
+
+/*Individual links in the nav bar*/
+.nav-list-items{
+  margin-top: 55px;
+  padding-bottom: 120px;
+  margin-bottom: 55px;
+  padding-left: 50px;
+  text-align: left;
+}
+
+
+.nav {
+  background-color: #fcfcfc;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: 0 6px 28px 1px rgba(0,0,0,0.10);
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  
+}
+
+
+h1{
+  font-family: AvenirNext-Bold;
+  font-size: 28px;
+}
+
+h2{
+  font-family: AvenirNext-Bold;
+  font-size: 26px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+li a {
+  display: block;
+  color: #000;
+  opacity: 0.8;
+  padding-bottom: 26px;
+  text-decoration: none;
+  font-family: AvenirNext-DemiBold;
+  font-size: 20px;
+}
+
+li a:hover{
+  opacity: 1.0;
+  text-decoration: none;
+  /*color: #3498DB;*/
+}
+
+p {
+  font-family: AvenirNext-Regular;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.App ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.app-container {
+  margin-left: 300px;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+
+.feature-heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.feature-title{
+  font-family: AvenirNext-DemiBold;
+  font-size: 32px;  
+}
+
