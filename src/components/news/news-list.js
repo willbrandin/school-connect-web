@@ -16,8 +16,8 @@ class NewsList extends Component {
     }
 
     componentWillMount(){
-        this.loadNews();
-
+				this.loadNews();
+				
     }
 
     loadNews(){

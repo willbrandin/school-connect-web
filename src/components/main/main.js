@@ -5,6 +5,7 @@ import Calendar from '../calendar/calendar-container'
 import HomeLinks from '../home-links/home-links-container'
 import Messages from '../messages/messages-container'
 import Settings from '../settings/settings-container'
+import {authUser} from '../../store/actions/auth'
 
 const Main = () => (
     <main>
@@ -14,7 +15,7 @@ const Main = () => (
         <Route path='/calendar' component={Calendar}/>
         <Route path='/homelinks' component={HomeLinks}/>
         <Route path='/messages' component={Messages}/>
-        <Route path='/settings' component={Settings}/>
+        <Route path='/settings' component={Settings}/>  
       </Switch>
     </main>
   )
